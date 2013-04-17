@@ -1,0 +1,26 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("twitter.com") {
+
+	/*[[lighter]]*/
+
+	/*Exclusive options, choose one*/
+	/*1. Make it just lighter*/
+	#top-bar-bg{ 
+		background: -moz-linear-gradient(center top , #333333, #555555) repeat scroll 0 0 transparent !important;
+		background: -webkit-gradient(linear, center top, center bottom, from(#333333), to(#555555)) repeat scroll 0 0 transparent  !important;
+	}
+	#top-bar-bg {
+		-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+		background: -moz-linear-gradient(center top , rgba(20,20,20,0.8), rgba(100,100,100,0.65)) !important;
+	}
+	
+	/*2. Fade it to transparent*/
+	#search-form #search-query {
+		background: #FFF !important;
+		-moz-box-shadow: none !important;
+	}
+	#top-bar .vr {
+		display:none !important;
+	}
+}
