@@ -1,6 +1,6 @@
 [Google - Grey Google Bar blends with search bar container](http://userstyles.org/styles/62844)
 ==========
-![Style Preview](cdn.userstyles.org/style_screenshots/62844_after.png)
+![Style Preview](http://cdn.userstyles.org/style_screenshots/62844_after.png)
 
 This style for Firefox changes the following in ALL Google's services:
 * The Google Bar is grey instead of black, it perfectly blends with the grey search bar container beneath.
